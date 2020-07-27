@@ -15,12 +15,11 @@
   height: calc(100% - 80px);
   width: calc(100% - 300px);
   margin-left: 300px;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  padding-top: 80px;
   background-color: yellow;
   overflow-y: scroll;
 }
-
+/* nav trasparente */
 .nav-up {
   height: 80px;
   width: 100%;
@@ -28,6 +27,7 @@
   position: fixed;
   top: 0;
 }
+/* /nav trasparente */
 /* /corpo centrale */
 /* footer*/
 .foot {
