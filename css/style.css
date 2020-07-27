@@ -47,5 +47,16 @@
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+/* lista playlist */
+.list-playlist {
+  height: 100px;
+  overflow-y: scroll;
+}
+/* /lista playlist */
+/* profilo */
+
 /*/ nav laterale */
