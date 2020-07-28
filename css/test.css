@@ -10,6 +10,89 @@
   width: 100%;
   position: relative;
 }
+
+
+/* nav laterale */
+.nav-lat {
+  width: 200px;
+  height: calc(100% - 80px);
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav_lat_up {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  height: calc(100% - 200px);
+}
+/* logo nav laterale */
+.logo_nav_lat {
+  height: 80px;
+  line-height: 80px;
+  padding-left: 15px;
+}
+
+.img_logo_nav_lat {
+  max-width: 100px;
+}
+/* /logo nav laterale */
+/* primo lstato nav laterale */
+/* primo listato */
+.search .s_home a  {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.search .s_home a img {
+  color: #fff;
+}
+/* primo /listato */
+
+.search  a  {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #808080;
+}
+
+.search  ul span {
+  padding-left: 10px;
+}
+
+.search ul li img {
+  max-width: 30px;
+  vertical-align: middle;
+  color: #808080;
+}
+
+.search a:hover {
+  color: #fff;
+}
+/*/ primo lstatonav laterale */
+
+/* lista playlist */
+.list-playlist {
+  height: 300px;
+  overflow-y: auto;
+  background-color: pink;
+}
+
+.nav_lat_bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80px;
+}
+/* /lista playlist */
+
+
+
 /* corpo centrale */
 .big-main {
   height: calc(100% - 80px);
@@ -79,34 +162,6 @@
 /* footer */
 
 /* nav laterale */
-.nav-lat {
-  width: 20%;
-  height: calc(100% - 80px);
-  background-color: blue;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-.nav_lat_up {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  height: 50%;
-}
-
-.nav_lat_bot {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-/* lista playlist */
-.list-playlist {
-  height: 200px;
-  overflow-y: scroll;
-}
 /* /lista playlist */
 /*/ nav laterale */

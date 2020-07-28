@@ -43,28 +43,57 @@
   max-width: 100px;
 }
 /* /logo nav laterale */
-/* primo lstatonav laterale */
-.search ul li {
+/* primo lstato nav laterale */
+/* primo listato */
+.search .s_home a  {
+  text-decoration: none;
   text-transform: capitalize;
-  color: white;
-  padding-left: 15px;
+  color: #fff;
 }
-/*/ primo lstatonav laterale */
 
+.search .s_home a img {
+  color: #fff;
+}
+/* primo /listato */
+
+.search  a  {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #808080;
+}
+
+.search  ul span {
+  padding-left: 10px;
+}
+
+.search ul li img {
+  max-width: 30px;
+  vertical-align: middle;
+  color: #808080;
+}
+
+.search a:hover {
+  color: #fff;
+}
+/*/ primo listato nav laterale */
+/* titolo nav laterale */
+
+/* /titolo nav laterale */
 /* lista playlist */
 .list-playlist {
-  height: 200px;
+  height: 300px;
   overflow-y: auto;
+  background-color: pink;
 }
 
 .nav_lat_bot {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 200px;
+  height: 80px;
 }
 /* /lista playlist */
-/*/ nav laterale */
+
 
 /* corpo centrale */
 .big-main {
