@@ -28,18 +28,26 @@
   display: flex;
   flex-direction: column;
   justify-content:space-between;
-  height: 50%;
+  height: calc(100% - 200px);
+}
+
+/* logo nav laterale */
+.logo_nav_lat {
+  height: 80px;
+  line-height: 80px;
+}
+/* /logo nav laterale */
+/* lista playlist */
+.list-playlist {
+  height: 150px;
+  overflow-y: auto;
 }
 
 .nav_lat_bot {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
-/* lista playlist */
-.list-playlist {
   height: 200px;
-  overflow-y: scroll;
 }
 /* /lista playlist */
 /*/ nav laterale */
@@ -51,12 +59,12 @@
   margin-left: 300px;
   padding-top: 80px;
   background-color: yellow;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 /* nav trasparente */
 .nav-up {
   height: 80px;
-  width: 79%;
+  width: 100%;
   background-color: rgba(0,0,0,0.8);
   position: fixed;
   top: 0;
