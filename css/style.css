@@ -88,14 +88,14 @@
 @media screen and (max-width: 970px) {
   .row-select {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .box-select {
     width: calc(100% / 3);
-    flex-wrap: nowrap;
-    margin: 50px 30px;
+    margin: 50px 50px;
   }
+
 }
 /* /nav trasparente */
 /* /corpo centrale */
