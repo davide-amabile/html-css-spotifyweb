@@ -61,6 +61,7 @@
   position: fixed;
   top: 0;
 }
+/* /nav trasparente */
 /* prima linea */
 .row-select {
   display: flex;
@@ -70,7 +71,10 @@
   width: calc(100% / 6);
   height: 150px;
   background-color: lightblue;
-  margin: 50px 10px;
+  padding:  50px 15px;
+  margin: 50px 0;
+  border: 1px solid black;
+  background-color: pink;
 }
 
 /* media query linea img */
@@ -81,7 +85,7 @@
   }
 
   .box-select {
-    width: calc(100% / 5);
+    width: calc(100% / 4);
   }
 }
 
@@ -92,12 +96,13 @@
   }
 
   .box-select {
-    width: calc(100% / 3);
-    margin: 50px 50px;
+    width: calc(100% / 2);
   }
 
 }
+
 /* /nav trasparente */
+
 /* /corpo centrale */
 /* footer*/
 .foot {
