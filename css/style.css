@@ -5,7 +5,7 @@
 }
 
 .big-wrap {
-  background-color: black;
+  background-color: #000;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -119,12 +119,13 @@
 /* media query nav laterale responsive */
 
 @media screen and (max-width:750px) {
-  span {
+  span,
+  .list-playlist {
     display: none;
   }
 
   .img_logo_nav_lat_r {
-    max-width: 40px;
+    width: 50px;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -135,11 +136,12 @@
   }
 
   .big-main {
-    width: calc(100% - 50px);
+    width: 100%;
     padding-left: 50px;
   }
 }
 
+/* corpo centrale */
 .big-main {
   height: calc(100% - 80px);
   width: calc(100% - 200px);
