@@ -55,24 +55,22 @@
 }
 /* primo /listato */
 
-.search  a,
-.playlist a  {
+.style a {
   text-decoration: none;
   text-transform: capitalize;
   color: #808080;
 }
 
-.search  ul span {
-  padding-left: 10px;
-}
 
-.search ul li img {
+/*size immagini nav laterale*/
+.img_size_nav {
   max-width: 30px;
   vertical-align: middle;
   color: #808080;
+  margin-right: 10px;
 }
 
- .white a:hover { */
+ .white a:hover {
   color: #fff;
 }
 /*/ primo listato nav laterale */
@@ -88,22 +86,31 @@
   vertical-align: middle;
   padding-right: 10px;
 }
-/* /titolo nav laterale */
-/* lista playlist */
-.list-playlist a {
-  height: 300px;
+
+.list-playlist {
+  height: 200px;
   overflow-y: auto;
+}
+.list-playlist a {
   color: #808080;
   text-decoration: none;
 }
-
+/* /titolo nav laterale */
+/* lista playlist */
 .nav_lat_bot {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 80px;
 }
-/* /lista playlist */
+
+.nav_lat_bot img {
+  max-width: 15px;
+  vertical-align: middle;
+  color: #808080;
+  margin-right: 10px;
+}
+
 
 
 /* corpo centrale */
