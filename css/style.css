@@ -41,6 +41,11 @@
 .img_logo_nav_lat {
   max-width: 100px;
 }
+/* logo responsive */
+.img_logo_nav_lat_r {
+  max-width: 40px;
+  display: none;
+}
 /* /logo nav laterale */
 /* primo lstato nav laterale */
 /* primo listato */
@@ -111,9 +116,30 @@
   margin-right: 10px;
 }
 
+/* media query nav laterale responsive */
 
+@media screen and (max-width:750px) {
+  span {
+    display: none;
+  }
 
-/* corpo centrale */
+  .img_logo_nav_lat_r {
+    max-width: 40px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav-lat {
+    width: 50px;
+  }
+
+  .big-main {
+    width: calc(100% - 50px);
+    padding-left: 50px;
+  }
+}
+
 .big-main {
   height: calc(100% - 80px);
   width: calc(100% - 200px);
