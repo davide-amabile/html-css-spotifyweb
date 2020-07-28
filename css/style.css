@@ -15,6 +15,7 @@
 .nav-lat {
   width: 200px;
   height: calc(100% - 80px);
+  padding-left: 10px;
   background-color: 000;
   position: fixed;
   top: 0;
@@ -35,8 +36,6 @@
 .logo_nav_lat {
   height: 80px;
   line-height: 80px;
-  padding-left: 15px;
-  border: 1px solid white;
 }
 
 .img_logo_nav_lat {
@@ -56,7 +55,8 @@
 }
 /* primo /listato */
 
-.search  a  {
+.search  a,
+.playlist a  {
   text-decoration: none;
   text-transform: capitalize;
   color: #808080;
@@ -72,18 +72,29 @@
   color: #808080;
 }
 
-.search a:hover {
+ .white a:hover { */
   color: #fff;
 }
 /*/ primo listato nav laterale */
 /* titolo nav laterale */
 
+.playlist h1 {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.playlist a i {
+  font-size: 2rem;
+  vertical-align: middle;
+  padding-right: 10px;
+}
 /* /titolo nav laterale */
 /* lista playlist */
-.list-playlist {
+.list-playlist a {
   height: 300px;
   overflow-y: auto;
-  background-color: pink;
+  color: #808080;
+  text-decoration: none;
 }
 
 .nav_lat_bot {
