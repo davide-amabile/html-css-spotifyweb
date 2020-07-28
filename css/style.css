@@ -50,6 +50,7 @@
 }
 /* footer */
 
+
 /* nav laterale */
 .nav-lat {
   width: 300px;
@@ -60,11 +61,24 @@
   left: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.nav_lat_up {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  height: 50%;
+}
+
+.nav_lat_bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 /* lista playlist */
 .list-playlist {
-  height: 100px;
+  height: 200px;
   overflow-y: scroll;
 }
 /* /lista playlist */
