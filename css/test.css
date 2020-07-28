@@ -13,8 +13,8 @@
 /* corpo centrale */
 .big-main {
   height: calc(100% - 80px);
-  width: calc(100% - 300px);
-  margin-left: 300px;
+  width: calc(100% - 20%) ;
+  margin-left: 20px;
   padding-top: 80px;
   background-color: yellow;
   overflow-y: scroll;
@@ -80,7 +80,7 @@
 
 /* nav laterale */
 .nav-lat {
-  width: 300px;
+  width: 20%;
   height: calc(100% - 80px);
   background-color: blue;
   position: fixed;

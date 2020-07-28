@@ -13,9 +13,9 @@
 
 /* nav laterale */
 .nav-lat {
-  width: 300px;
+  width: 200px;
   height: calc(100% - 80px);
-  background-color: blue;
+  background-color: 000;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,11 +35,25 @@
 .logo_nav_lat {
   height: 80px;
   line-height: 80px;
+  padding-left: 15px;
+  border: 1px solid white;
+}
+
+.img_logo_nav_lat {
+  max-width: 100px;
 }
 /* /logo nav laterale */
+/* primo lstatonav laterale */
+.search ul li {
+  text-transform: capitalize;
+  color: white;
+  padding-left: 15px;
+}
+/*/ primo lstatonav laterale */
+
 /* lista playlist */
 .list-playlist {
-  height: 150px;
+  height: 200px;
   overflow-y: auto;
 }
 
@@ -55,10 +69,10 @@
 /* corpo centrale */
 .big-main {
   height: calc(100% - 80px);
-  width: calc(100% - 300px);
-  margin-left: 300px;
+  width: calc(100% - 200px);
+  margin-left: 200px;
   padding-top: 80px;
-  background-color: yellow;
+  background-color: #141922;
   overflow-y: auto;
 }
 /* nav trasparente */
@@ -116,7 +130,7 @@
 .foot {
  width: 100%;
  height: 80px;
- background-color: red;
+ background-color: #282828;
  position: fixed;
  bottom: 0;
 }
