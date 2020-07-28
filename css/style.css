@@ -10,46 +10,6 @@
   width: 100%;
   position: relative;
 }
-/* corpo centrale */
-.big-main {
-  height: calc(100% - 80px);
-  width: calc(100% - 300px);
-  margin-left: 300px;
-  padding-top: 80px;
-  background-color: yellow;
-  overflow-y: scroll;
-}
-/* nav trasparente */
-.nav-up {
-  height: 80px;
-  width: 100%;
-  background-color: rgba(0,0,0,0.8);
-  position: fixed;
-  top: 0;
-}
-/* prima linea */
-.row-select {
-  display: flex;
-}
-
-.box-select {
-  width: calc(100% / 6);
-  height: 150px;
-  background-color: lightblue;
-  margin: 50px 15px;
-}
-/* /nav trasparente */
-/* /corpo centrale */
-/* footer*/
-.foot {
- width: 100%;
- height: 80px;
- background-color: red;
- position: fixed;
- bottom: 0;
-}
-/* footer */
-
 
 /* nav laterale */
 .nav-lat {
@@ -83,3 +43,68 @@
 }
 /* /lista playlist */
 /*/ nav laterale */
+
+/* corpo centrale */
+.big-main {
+  height: calc(100% - 80px);
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  padding-top: 80px;
+  background-color: yellow;
+  overflow-y: scroll;
+}
+/* nav trasparente */
+.nav-up {
+  height: 80px;
+  width: 79%;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+}
+/* prima linea */
+.row-select {
+  display: flex;
+}
+
+.box-select {
+  width: calc(100% / 6);
+  height: 150px;
+  background-color: lightblue;
+  margin: 50px 10px;
+}
+
+/* media query linea img */
+@media screen and (max-width: 1100px) {
+  .row-select {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-select {
+    width: calc(100% / 5);
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .row-select {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .box-select {
+    width: calc(100% / 3);
+    flex-wrap: nowrap;
+    margin: 50px 30px;
+  }
+}
+/* /nav trasparente */
+/* /corpo centrale */
+/* footer*/
+.foot {
+ width: 100%;
+ height: 80px;
+ background-color: red;
+ position: fixed;
+ bottom: 0;
+}
+/* footer */
