@@ -144,7 +144,7 @@ h2 {
 
 @media screen and (max-width:750px) {
 
-  span,
+  .nav-lat span,
   .list-playlist {
     display: none;
   }
@@ -228,7 +228,7 @@ h2 {
 }
 
 .box-select {
-  width: calc(100% / 4);
+  width: calc(100%  / 6);
   background-color: lightblue;
   padding:  10px 10px;
   margin: 50px 0;
@@ -238,8 +238,8 @@ h2 {
 
 .ctn_img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width:  100%;
+  height: 80%;
 }
 
 /* immagini */
@@ -275,6 +275,21 @@ h2 {
 }
 
 /* /effetto hover */
+
+.ctn_name {
+  height: 20%;
+  text-align: center;
+}
+
+.ctn_name h4 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.ctn_name span {
+  color: #808080;
+  font-size: 0.8rem;
+}
 
 /* media query linea img */
 @media screen and (max-width: 1100px) {
