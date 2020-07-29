@@ -132,7 +132,8 @@
   }
 
   .big-main {
-    width: 100%;
+    width: calc(100% - 50px);
+    margin-left: 50px;
   }
 
   span,
@@ -187,8 +188,15 @@
 /* menu main */
 .list_main {
   height: 60px;
-  line-height: 60px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .list_main li {
+     width: calc(100% / 4); 
+  }
 }
 .list_main li{
   display: inline-block;
@@ -197,7 +205,7 @@
 .list_main a{
   text-decoration: none;
   color: #808080;
-  padding: 5px;
+  /* padding: 5px; */
 }
 /* /menu main */
 /* prima linea */
@@ -206,7 +214,7 @@
 }
 
 .box-select {
-  width: calc(100% / 6);
+  width: calc(100% / 4);
   height: 150px;
   background-color: lightblue;
   padding:  50px 15px;
